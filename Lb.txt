@@ -1,0 +1,28 @@
+09/10/26
+
+window-DLL linux mac
+Api
+
+Rules 
+1function name meaningful
+2 function should not accept anything in body only parameter not input output value
+3 function shoud be automic in nature
+4 Input validation -perform by caller not calling 
+
+
+Indutrial Project file Program devide in 3files 
+1 main function  .c
+2 helper fun     .c
+3 Prototype of all header function  .h user define header file 
+run code cmd :- gcc Program14.c Program15.c -o Myexe
+
+
+
+in company Project strcture 
+
+arithmatic 
+1src---1program.c   program21.c 
+
+2header---- HEarder.h
+
+3Doc----Readme.txt
