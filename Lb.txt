@@ -26,3 +26,19 @@ arithmatic
 2header---- HEarder.h
 
 3Doc----Readme.txt
+
+
+11/10/2026
+
+sequence --single line
+ serial 
+ iteration --while do while
+
+
+
+reverse enginerring
+
+
+1.main function in logic-- worts case
+2.function in logic but mainclass
+3.new class
