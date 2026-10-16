@@ -55,5 +55,10 @@ rexfoeweek java read
 36 +23
 
 
+
 date 
 16/10/2026
+
+time complexity --- when in loop present then time complexity ocuur
+ space complexity------ tc/2
+
