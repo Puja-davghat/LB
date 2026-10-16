@@ -33,7 +33,7 @@ arithmatic
 sequence --single line
  serial 
  iteration --while do while
-
+in c necad method
 
 
 reverse enginerring
@@ -42,3 +42,18 @@ reverse enginerring
 1.main function in logic-- worts case
 2.function in logic but mainclass
 3.new class
+
+
+next()-- when space it show 
+nextLine();-- all input
+
+g 
+flush ()method in c
+
+rexfoeweek java read
+
+36 +23
+
+
+date 
+16/10/2026
