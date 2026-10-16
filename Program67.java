@@ -22,9 +22,9 @@ class Iteration
     public void Display(int iNo)
     {
         
-        int iCnt = 0;
-            iCnt = 1;
-      do{
+        int iCnt = 0;//satrting 
+            iCnt = 1;//initialization
+      do{ //tail executing
             System.out.println("--------------");
             System.out.println(iCnt + " Jay Ganesh....!");
             System.out.println("--------------");
