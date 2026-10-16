@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Program65
+class Program66
  {
    public static void main(String[] args) 
     {
@@ -23,13 +23,16 @@ class Iteration
     {
         
         int iCnt = 0;
-
-        for(iCnt= iNo;  iCnt >= 1;  iCnt--)
+            iCnt = 1;
+      
+        while (iCnt<= iNo)
         {
             System.out.println("--------------");
             System.out.println(iCnt + " Jay Ganesh....!");
             System.out.println("--------------");
-            
+             iCnt++;
         }
+
+       
     }
 }
