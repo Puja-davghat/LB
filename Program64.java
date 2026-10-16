@@ -14,7 +14,7 @@ class Iteration{
     {
         int iCnt = 0;
 
-        for(iCnt = 8 ; iCnt >= 1 ; iCnt--) // Infinite loop
+        for(iCnt = 8 ; iCnt >= 1 ; iCnt--) 
         {
             System.err.println("Jay ganesh...!");
         }
