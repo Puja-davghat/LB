@@ -1,9 +1,9 @@
 #include<stdlib.h>
 #include<stdio.h>
- int Factorial(int iNo)
+ long int Factorial(int iNo)
  {
   int iCnt = 0; 
-  int iFact= 0;
+  long int iFact= 0;
    iFact = 1;
 
 for ( iCnt=1 , iFact = 1; iCnt<= iNo; iCnt++)
@@ -14,16 +14,16 @@ for ( iCnt=1 , iFact = 1; iCnt<= iNo; iCnt++)
  }
   int main()
   {
- int iCnt= 0;
+ 
  int iValue = 0 ;
-int  iRet = 0;
+ long int  iRet = 0;
 
 
   printf("Enter number : \n");
-  scanf("%d", &iValue);
+  scanf("%ld", &iValue);
   
 iRet = Factorial(iValue);
-printf("Factorial is : %d\n", iRet);
+printf("Factorial is : %ld\n", iRet);
 
 return EXIT_SUCCESS;
   }
