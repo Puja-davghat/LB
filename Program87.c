@@ -7,16 +7,18 @@ if ((iNo % 3) == 0)
 {  
     if((iNo % 5)  == 0)
     {
-    printf("Number is Divisible by 3 & 5  \n");
+         printf("Number is Divisible by 3 & 5  \n");
     }
-    else{
-        printf("Number is Not  Divisible by  5 \n");
+    else
+     {
+        printf("Number is Not  Divisible by  3 & 5 \n");
      }
 }
-else{
-    printf("Number is Not  Divisible by  5 \n");
+else
+{
+    printf("Number is Not  Divisible by 3 & 5 \n");
 }
-}
+    }
 
   int main()
   {
