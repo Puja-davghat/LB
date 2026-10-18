@@ -1,6 +1,6 @@
 #include<stdlib.h>
 #include<stdio.h>
-long  long int Factorial(int iNo)
+long  long  Factorial(int iNo)
  {
   int iCnt = 0; 
   long long  iFact= 0;
