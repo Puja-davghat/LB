@@ -2,10 +2,10 @@
 iRow =4 
 iCol = 4
 
-$   *   *   *
-*   $   *   *
-*   *   $   *
-*   *   *   $
+#   2  3   4
+1   #   3   4
+1   2   #   4
+1   2   3   #
 
 */
 
@@ -26,13 +26,13 @@ if(iRow != iCol)
 
       for(j = 1; j <= iCol ; j++)
       {
-        if(i == j)  //diagonal print $
+        if(i == j)  //diagonal print #
         {
-          printf("$\t"); 
+          printf("#\t"); 
         }
         else
         {
-            printf("*\t");
+            printf("%d\t", j);
         }
           
       }
