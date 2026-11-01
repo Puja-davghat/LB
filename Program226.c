@@ -3,9 +3,10 @@
 
 int main()
 {
-    char Arr[7] ={'G','A','N','E','S','H','\0'};
+    char Arr[10] ={'G','A','N','E','S','H','\0'};
      printf("%s\n", Arr);
 
+     printf("Size Of Array is: %d\n", sizeof(Arr));
     return EXIT_SUCCESS;
 }
 
