@@ -7,7 +7,7 @@ int CountX(char *str)
    int iCount = 0;
    while (*str != '\0')
    {
-     if((*str == (97))  ||  (*str == (98))  ||  (*str == (99))  ||  (*str == (100))  ||  (*str == (101)))
+     if((*str >= (97))  &&  (*str <= (100))  )
      {
       iCount++;
      }
