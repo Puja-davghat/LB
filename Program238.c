@@ -4,14 +4,18 @@
 
 int main()
 {
-    char Arr[20] = "Jay Ganesh";
+    int iCount = 0;
+    char Arr[20] = "Jay Ganesh ";
    char *ptr = NULL;
-
    ptr = &(Arr[0]);
-   while(*ptr != '\0')
+   
+   while(*ptr != '\0')   //Pointr
    {
-        printf("%c\n", *ptr);
+
+        iCount++;     //logic character or length  of string 
         ptr++;
-   }                                      
+   } 
+   
+   printf("Length of string is : %d\n", iCount);
     return EXIT_SUCCESS;
 }
