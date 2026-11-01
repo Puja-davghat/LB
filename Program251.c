@@ -1,20 +1,18 @@
-// actpt str usr count char a 
+// actpt str usr count space
 // input   Puja
-// output   vovels count 
-// a  e i o u insesitive
+// output   space  count 
+
 
 #include<stdio.h>
 #include<stdlib.h>
 
-int CountVowelsX(char *str)
+int CountSpaceX(char *str)
 {
    char ch = 'a';
    int iCount = 0;
    while (*str != '\0')
    {
-     if((*str == ('A')) || (*str ==('E')) || (*str == ('I')) || (*str == ('O')) || (*str == ('U')) ||
-         (*str == ('a')) || (*str ==('e')) || (*str == ('i')) || (*str == ('o')) || (*str == ('u'))
-   )
+     if(*str == ' ')
      {
       iCount++;
      }
@@ -31,8 +29,8 @@ char Arr[100]= {'\0'};  // Static memory
  printf("Enter String : \n");
  scanf("%[^'\n']s", Arr);
 
-iRet = CountVowelsX(Arr);
-printf("Frequency of 'Vowels' is: %d\n",iRet);
+iRet = CountSpaceX(Arr);
+printf("Frequency of whitespaces is: %d\n",iRet);
 
     return EXIT_SUCCESS;
 }
