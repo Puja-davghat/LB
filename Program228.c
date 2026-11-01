@@ -3,7 +3,7 @@
 
 int main()
 {
-    char Arr[10] ={'G','A','N','E','S','H','\0'};
+    char Arr[100] ={'G','A','N','E','S','H'};//member initlization
      printf("%s\n", Arr);
 
      printf("Size Of Array is: %d\n", sizeof(Arr));
