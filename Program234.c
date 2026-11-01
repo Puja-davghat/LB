@@ -6,7 +6,7 @@ int main()
 {
     char Arr[100];
     printf("Enter String : \n");
-    scanf("%s",Arr);
+    scanf("%[^'\n']s",Arr);
     printf("Entered String is : %s\n",Arr);
 
     
