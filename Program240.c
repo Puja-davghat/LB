@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
-void Display(char str[])
+void Display(char *str) // two way ti initilization  char str[] && char *str
 {
    printf("%s\n",str);
 }
