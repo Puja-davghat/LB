@@ -1,13 +1,13 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-int CountCapitalX(char *str)
+int CountDigitsX(char *str)
 {
    char ch = 'a';
    int iCount = 0;
    while (*str != '\0')
    {
-     if((*str >= ('A'))  &&  (*str <= ('Z'))  ) // capital A-Z asccii value
+     if((*str >= ('0'))  &&  (*str <= ('9'))  )
      {
       iCount++;
      }
@@ -24,8 +24,8 @@ char Arr[100]= {'\0'};  // Static memory
  printf("Enter String : \n");
  scanf("%[^'\n']s", Arr);
 
-iRet = CountCapitalX(Arr);
-printf("Frequency  of Capital etters is: %d\n",iRet);
+iRet = CountDigitsX(Arr);
+printf("Frequency  of Digits is: %d\n",iRet);
 
     return EXIT_SUCCESS;
 }
