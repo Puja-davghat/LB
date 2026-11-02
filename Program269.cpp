@@ -1,11 +1,11 @@
 #include<iostream>
 using namespace std ;
 
-double Addition(double iNo1, double iNo2) 
+double Addition(double No1, double No2) 
 {
 
-    double iAns = 0.0;
-    iAns = iNo1 + iNo2;
+    double Ans ;
+    Ans = No1 + No2;
 return  iAns;
 
 }
@@ -24,6 +24,7 @@ cin>> iValue2;
 iRet = Addition(iValue1 , iValue2);
 
 cout<<"Addition is :"<< iRet<<"\n";
+
     return EXIT_SUCCESS;
 }
 
