@@ -17,7 +17,7 @@ template<class T>
     No1 = A;
     No2 = B;
   }
-  
+
   template<class T>
  T Arithmetic <T> :: Addition()   //error
     {
@@ -38,16 +38,12 @@ template<class T>
   
 int main()
 {
-Arithmetic aobj1(30.5,11.6);
-Arithmetic aobj2(50.5,21.6);
+Arithmetic <int> *aobj  = NULL;    
 
+   aobj =  new Arithmetic  <int> (11,10);   
 
-cout<<aobj1.Addition()<<"\n";
-cout<<aobj2.Addition()<<"\n";
-
-
-cout<<aobj1.Substractor()<<"\n";
-cout<<aobj2.Substractor()<<"\n";
+   cout<<aobj->Addition()<<endl;
+   
     return EXIT_SUCCESS;
 }
 
