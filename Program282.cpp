@@ -32,7 +32,7 @@ int main()
 {
 Arithmetic *aobj = new Arithmetic(11,10);
 
-
+cout<<aobj->Addition()<<endl;
 
 
     return EXIT_SUCCESS;
