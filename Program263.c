@@ -2,7 +2,7 @@
 // @ % & # *  &
 #include<stdio.h>
 #include<stdlib.h>
-void CountFrequencyX(char str)
+void CountFrequencyX(char *str)
 {
    int iCountSmall = 0 , iCountCapitlas = 0, iCountDigits = 0 , iCountSpecial= 0;
 
@@ -38,10 +38,9 @@ int main()
 
 char Arr[100]= {'\0'};  // Static memory
  printf("Enter String : \n");
- scanf("%[^'\n']s", Arr);
+ scanf("%[^\n]", Arr);
 
- CountFrequency(Arr);
-
+ CountFrequencyX(Arr);
     return EXIT_SUCCESS;
 }
 
