@@ -7,7 +7,7 @@ int main()
 
     int No = 14;
     int Ans = 0;
-     Ans = No >> 3 ;
+     Ans = No >> 3 ; // rightshift
      printf("%d\n",Ans);
     
     return EXIT_SUCCESS;
