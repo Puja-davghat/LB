@@ -5,11 +5,8 @@
 int main()
 {
 
-    int No = 67;
-    printf("Decimal : %d\n",No);
-    printf("Octal : %o\n",No);
-    printf("HexaDecimal : %X\n",No);
-    printf("HexaDecimal : %x\n",No);
-
+    int No = 0X3db;
+    printf(" %d\n",No);
+    
     return EXIT_SUCCESS;
 }
