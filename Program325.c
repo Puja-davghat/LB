@@ -18,6 +18,11 @@ for(iCnt=0 ; iCnt < iSize ; iCnt++)
 {
   scanf("%d",&ptr[iCnt]);
 }
+printf("Elements of array are : \n");
+for(iCnt=0 ; iCnt < iSize ; iCnt++)
+{
+ printf("%d\n",&ptr[iCnt]);
+}
 
   // Step 3 :  Free the Memory
   free(ptr);
