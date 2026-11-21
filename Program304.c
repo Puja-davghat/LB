@@ -6,14 +6,14 @@ int main()
 int Arr[4]= {0};// no garbage value presnt caosue { 0 } remove garbage .
  int iCnt =0;
 
- printf("Enter the Elements of Array :\n");
+ printf("Enter the Elements of Array :\n");  // take input 
  for(iCnt =0; iCnt < 4 ; iCnt++)
  {
  scanf("%d",&Arr[iCnt]);
 
  }
 
- printf("Elements Of the Array are :\n");
+ printf("Elements Of the Array are :\n"); // give output
 
  for(iCnt =0; iCnt < 4 ; iCnt++)
 {
