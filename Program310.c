@@ -1,15 +1,18 @@
 #include<stdio.h>
 #include<stdlib.h>
-
 void Display(int *ptr)
 {
-printf("%d\n",ptr);
+printf("%d\n",*ptr);
 }
 
 int main()
 {
-int Arr[5] = {10,20,30,40,50};
+
+int Arr[5] = {11,21,51,101,151};
+
 printf("%d\n", Arr);
+
 Display(Arr); // Dispaly(100);
+
     return EXIT_SUCCESS;
 }
