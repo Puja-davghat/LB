@@ -1,9 +1,22 @@
 import java.util.Scanner;
 class Progarm345
 {
+    public static int Summation( int Arr[])
+    {
+        int iCnt =0, iSum = 0; 
+        for(iCnt=0; iCnt <Arr.length; iCnt++)
+        {
+            iSum = iSum + Arr[iCnt];
+        }
+        return iSum;
+
+    }
+
+
     public static void main(String A [])
     {
  int iCnt =0,iSize =0;
+ int iRet = 0;
 
 int ptr[]= null;
 Scanner scanner = null;
@@ -30,9 +43,13 @@ for (iCnt =0;iCnt<ptr.length;iCnt++) // Arr.length
 {
     System.out.println(ptr[iCnt]);
 }
+
+iRet = Summation(ptr);
+System.out.println("Addition is : "+iRet);
 //step 3 : deallocate memory(free)
 scanner = null;
 ptr = null;
 System.gc();
     }
 }
+
