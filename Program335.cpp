@@ -15,14 +15,14 @@
 
  //Step 2: use the Memory
 cout<<"Enter The Elements : \n";
- for( iCnt=0; iCnt<5 ; iCnt++)
+ for( iCnt=0; iCnt< iSize ; iCnt++)
  {
     cin>>ptr[iCnt];
  }
 
  cout<<"Elements of array are :\n";
 
- for( iCnt=0; iCnt<5 ; iCnt++)
+ for( iCnt=0; iCnt<iSize ; iCnt++)
  {
     cout<<ptr[iCnt]<<endl;
  }
