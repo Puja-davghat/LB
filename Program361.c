@@ -10,7 +10,7 @@ int main()
 
 
     ptr = (int *)malloc(iSize * sizeof(int));
-    if( NULL = ptr)// ISSUE // Assignment issue not assign correctly 
+    if( NULL == ptr)// ISSUE resolved
     {
         printf("Error : unable to allocate memory\n");
         return EXIT_FAILURE; 
