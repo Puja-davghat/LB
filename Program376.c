@@ -1,37 +1,24 @@
 #include<stdio.h>
 #include<stdlib.h>
-#include<stdbool.h>
 
-
-bool SearchElements(int Arr[], int iLength, int iNo)
+int Maximum(int Arr[], int iLength)
 {
-     
-    int iStart =0, iEnd = 0;
-    bool bFlag = false;
+    int iCnt =0 , iMax =0;
 
-
-    iStart =0;
-    iEnd = iLength - 1;
-    while (iStart <= iEnd)
+    for(iCnt=0 ;iCnt< iLength ; iCnt++)
     {
-     if((Arr[iStart]== iNo) || (Arr[iEnd]== iNo) )
-     {
-        bFlag = true;
-        break;  // early exit
-     }
-     iStart++;
-     iEnd--;
+        if(Arr[iCnt]> iMax)
+        {
+            iMax = Arr[iCnt];
+        }
     }
-    return bFlag;
+    return iMax;
 }
-
-// time complexity  : O(N/2)  -> worst case 
 int main()
 {
-    int *ptr = NULL;
+    
     int  iSize =0,iCnt =0;
-    int  iValue =0;
-  bool bRet = false;
+    int iRet =0;
     printf("Enter the Number Of Element : \n");
     scanf("%d",&iSize);
 
@@ -48,22 +35,12 @@ int main()
     {
         scanf("%d",&ptr[iCnt]);
 
-    }
+    } 
+    iRet = Maximum(ptr,iSize)
 
-    printf("Enter the Number that you want to search: \n");
-    scanf("%d",&iValue);
-
-    //function Call
-    bRet = SearchElements(ptr,iSize,iValue);
-        if(bRet == true)
-        {
-            printf("Elements is Present. \n");
-        }
-        else
-        {
-            printf("There is No Such Elements .\n");
-        }
-
+    printf("LArgest valu is :%d\n", iRet);
+    scanf("%d",&iSize);
+    
     free(ptr);
 
     return EXIT_SUCCESS;
