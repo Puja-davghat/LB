@@ -7,7 +7,7 @@ bool SearchElements(int Arr[], int iLength, int iNo)
      
     int iCnt =0;
     bool bFlag = false;
-    for(iCnt =0; iCnt < iLength; iCnt++)
+    for(iCnt =iLength-1; iCnt >= 0; iCnt--) // traverse torevese order to searching 
     {
      if(Arr[iCnt] == iNo)
      {
