@@ -11,10 +11,12 @@ bool SearchElements(int Arr[], int iLength, int iNo)
      if(Arr[iCnt] == iNo)
      {
         iCount++;
-        break; // erarl yexit to redus the tii,e complexity
+        break; // erarly exit to redus the tii,e complexity
      }
-    
+        
     }
+    return false;
+
     
     }
 
