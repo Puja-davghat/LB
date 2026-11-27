@@ -67,6 +67,7 @@ float fRet =0.0f;
         Number nobj1 = new Number(5);
         nobj1.Accept();
         nobj1.Display();
+        
         iRet = nobj1.Summation();
         System.out.println("Addition is :"+iRet);
 
