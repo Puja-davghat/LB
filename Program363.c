@@ -2,17 +2,17 @@
 #include<stdlib.h>
 int OddCount(int Arr[], int iLength)
 {
-    int iCnt =0 , iConut = 0;
+    int iCnt =0 , iCount = 0;
     for(iCnt =0; iCnt < iLength; iCnt++)
     {
-     if(Arr[iCnt] % 2 == 0)
-     {
-        return iConut++;
-     }
-    
+       if(Arr[iCnt] % 2 == 1)        {
+            iCount++; // Just increment the counter, don't return yet!
+        }
     }
-    return iConut;
+    
+    return iCount; // Return the final count after checking all elements
 }
+
 int main()
 {
     int *ptr = NULL;

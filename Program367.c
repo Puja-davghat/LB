@@ -5,26 +5,30 @@
 bool SearchElements(int Arr[], int iLength, int iNo)
 {
      
-    int iCnt =0, iConut = 0;
+    int iCnt =0, iCount = 0;
     for(iCnt =0; iCnt < iLength; iCnt++)
     {
-     if(Arr[iCnt] == iNo)
+     if(iCount == 0)
+     {
+       
+        return false;
+     }
+     else
      {
         return true;
-        iConut++;
      }
      
     
     }
 
-    return iConut;  
+    
 }
 int main()
 {
     int *ptr = NULL;
     int  iSize =0,iCnt =0;
-    int iRet =0, iValue =0;
-
+    int  iValue =0;
+  bool bRet = false;
     printf("Enter the Number Of Element : \n");
     scanf("%d",&iSize);
 
@@ -47,13 +51,15 @@ int main()
     scanf("%d",&iValue);
 
     //function Call
-    iRet = CountFrequency(ptr,iSize,iValue);
-  
-   if(iRet == true )
-   {
-     printf("Frequency is :%d\n", iRet);
-   }
-
+    bRet = SearchElements(ptr,iSize,iValue);
+        if(bRet == true)
+        {
+            printf("Elements is Present. \n");
+        }
+        else
+        {
+            printf("There is No Such Elements .\n");
+        }
 
     free(ptr);
 
